@@ -1,8 +1,7 @@
 int findFactorial(int number) {
-  int fact = 1;
-
-  for (int i = 1; i <= number; i++) {
-    fact = fact * i;
+  if (number == 0 || number == 1) {
+    return 1;
+  } else {
+    return number * findFactorial(number - 1);
   }
-  return fact;
 }
