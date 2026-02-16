@@ -1,7 +1,7 @@
 void main() {
   List<int> mainArr = [10, 20, 30, 40, 50, 60, 70];
 
-  print("Main arr is ${mainArr}");
+  print("Main arr is $mainArr");
   int element = 80;
   print("${getIndex(mainArr, element)}");
   print("${recursiveBSearch(mainArr, element, 0, mainArr.length - 1)}");
